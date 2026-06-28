@@ -1,4 +1,6 @@
-import "dotenv/config";
+import { config } from "dotenv";
+config({ path: ".env.local" });
+config(); // fallback to .env
 import { neon } from "@neondatabase/serverless";
 import { drizzle } from "drizzle-orm/neon-http";
 import { mentors } from "../lib/schema";
@@ -34,7 +36,7 @@ async function main() {
   `;
 
   await sql`
-    CREATE TABLE IF NOT EXISTS send_event (
+    CREATE TABLE IF NOT EXISTS mentor_send_event (
       id SERIAL PRIMARY KEY,
       mentor_id INTEGER REFERENCES mentor(id),
       event_type TEXT NOT NULL,

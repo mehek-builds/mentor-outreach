@@ -19,7 +19,7 @@ export const mentors = pgTable("mentor", {
   createdAt: timestamp("created_at").defaultNow(),
 });
 
-export const sendEvents = pgTable("send_event", {
+export const sendEvents = pgTable("mentor_send_event", {
   id: serial("id").primaryKey(),
   mentorId: integer("mentor_id").references(() => mentors.id),
   eventType: text("event_type").notNull(),

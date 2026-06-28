@@ -442,6 +442,15 @@ export const MENTORS: MentorSeed[] = [
     body: `<p>Hi Mariama,</p><p>You left Goldman to go build AI for the Gulf and emerging markets, the region everyone else overlooks, and as someone betting on building from outside the usual centers, that choice genuinely shifted how I think.</p><p>I'm Mehek, a USC computer science student building a vertical-AI company on my own, and watching someone leave a name like Goldman to build for an overlooked region is exactly the kind of bet I find inspiring.</p><p>The part I'd most love to learn is what changed in how you think about building after leaving Goldman. Could we find fifteen minutes this week? I'm at the very start of this and genuinely ready to learn from how you did it.</p><p>Warmly,<br>Mehek</p>`,
   },
   {
+    name: "Serena Ge",
+    email: "serena@datacurve.ai",
+    category: "Young founder",
+    overlap: "Immigrant dropout, female, build-in-public, YC W24 + raise",
+    waveDay: 5,
+    subject: "A Fellow Young Founder Building in Public",
+    body: `<p>Hi Serena,</p><p>You're a step ahead on the exact path I'm walking, leaving to build and pivoting until it clicked, which is why I wanted to reach out to you specifically rather than someone three stages ahead who would feel out of reach.</p><p>I'm Mehek, a USC computer science student building a vertical-AI company on my own and shipping in public as I go.</p><p>The part I'd most love to learn is how you knew which pivot was the one worth committing to, because that's the exact question I'm sitting with now. Could we find fifteen minutes this week? I'm at the start of this and genuinely ready to learn from how you did it.</p><p>Thank you, Serena.</p><p>Mehek</p>`,
+  },
+  {
     name: "Sophia Zhao",
     email: "sophia.zhao@av.vc",
     category: "Female VC",
