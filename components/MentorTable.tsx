@@ -118,7 +118,7 @@ export function MentorTable({
     }`;
 
   return (
-    <div className="mx-auto max-w-[1240px] px-8 pb-16 pt-6">
+    <div className="mx-auto max-w-[1240px] px-10 pb-16 pt-6">
       {notice && (
         <div
           className={`mb-4 rounded border px-4 py-2 text-sm ${

@@ -27,9 +27,9 @@ export function Header({ total, gmailReady }: { total: number; gmailReady: boole
 
   return (
     <header className="sticky top-0 z-10 border-b border-border bg-bg/90 backdrop-blur">
-      <div className="mx-auto flex max-w-[1240px] flex-wrap items-center justify-between gap-y-3 px-8 py-4">
+      <div className="mx-auto flex max-w-[1240px] flex-wrap items-center justify-between gap-y-4 px-10 py-5">
         <div className="flex items-baseline gap-2">
-          <span className="text-lg font-semibold tracking-tight text-ink">Mentor Outreach</span>
+          <span className="font-serif text-lg tracking-tight text-brand">Mentor Outreach</span>
           <span className="text-sm text-faint">{total} contacts</span>
         </div>
         <div className="flex items-center gap-3">
